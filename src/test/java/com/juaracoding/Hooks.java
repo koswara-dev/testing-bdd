@@ -6,6 +6,11 @@ import org.slf4j.Logger;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.gherkin.model.And;
+import com.aventstack.extentreports.gherkin.model.But;
+import com.aventstack.extentreports.gherkin.model.Given;
+import com.aventstack.extentreports.gherkin.model.Then;
+import com.aventstack.extentreports.gherkin.model.When;
 import com.juaracoding.drivers.DriverSingleton;
 import com.juaracoding.utils.Constants;
 import com.juaracoding.utils.ExtentReportManager;
@@ -22,6 +27,7 @@ public class Hooks {
     static WebDriver driver;
     private static final ExtentReports extentReports = ExtentReportManager.getInstance();
     private static final ThreadLocal<ExtentTest> scenarioTest = new ThreadLocal<>();
+    private static final ThreadLocal<ExtentTest> currentStepTest = new ThreadLocal<>();
 
     static Logger logger = org.slf4j.LoggerFactory.getLogger(Hooks.class);
 
@@ -38,14 +44,17 @@ public class Hooks {
     @BeforeStep
     public void beforeStep() {
         logger.info("Before step: " + driver.getCurrentUrl());
-        System.out.println("Before step: " + driver.getCurrentUrl());
-        scenarioTest.get().log(Status.INFO, "Current URL: " + driver.getCurrentUrl());
+        ExtentTest stepNode = currentStepTest.get();
+        if (stepNode != null) {
+            stepNode.log(Status.INFO, "Current URL: " + driver.getCurrentUrl());
+        } else {
+            scenarioTest.get().log(Status.INFO, "Current URL: " + driver.getCurrentUrl());
+        }
     }
 
     @After
     public void afterScenario(Scenario scenario) {
         logger.info("After scenario: " + driver.getCurrentUrl());
-        System.out.println("After scenario: " + driver.getCurrentUrl());
 
         ExtentTest extentTest = scenarioTest.get();
         if (scenario.isFailed()) {
@@ -63,6 +72,7 @@ public class Hooks {
             extentTest.pass("Scenario passed");
         }
 
+        currentStepTest.remove();
         scenarioTest.remove();
     }
 
@@ -73,6 +83,50 @@ public class Hooks {
             DriverSingleton.closeObjectInstance();
         }
         ExtentReportManager.flush();
+    }
+
+    public static ExtentTest getScenarioTest() {
+        return scenarioTest.get();
+    }
+
+    public static ExtentTest startStepNode(String keyword, String stepText) {
+        ExtentTest parent = scenarioTest.get();
+        if (parent == null) {
+            return null;
+        }
+
+        ExtentTest stepNode;
+        switch (keyword.trim()) {
+            case "Given":
+                stepNode = parent.createNode(Given.class, stepText);
+                break;
+            case "When":
+                stepNode = parent.createNode(When.class, stepText);
+                break;
+            case "Then":
+                stepNode = parent.createNode(Then.class, stepText);
+                break;
+            case "And":
+                stepNode = parent.createNode(And.class, stepText);
+                break;
+            case "But":
+                stepNode = parent.createNode(But.class, stepText);
+                break;
+            default:
+                stepNode = parent.createNode(stepText);
+                break;
+        }
+
+        currentStepTest.set(stepNode);
+        return stepNode;
+    }
+
+    public static ExtentTest getCurrentStepTest() {
+        return currentStepTest.get();
+    }
+
+    public static void clearCurrentStepTest() {
+        currentStepTest.remove();
     }
 
 }

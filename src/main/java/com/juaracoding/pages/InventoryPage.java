@@ -1,15 +1,24 @@
 package com.juaracoding.pages;
 
+import java.time.Duration;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.juaracoding.utils.Constants;
 
 public class InventoryPage {
 
+    private final WebDriverWait wait;
+
     public InventoryPage(WebDriver driver) {
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(Constants.TIMEOUT));
         PageFactory.initElements(driver, this);
     }
 
@@ -28,11 +37,12 @@ public class InventoryPage {
     private List<WebElement> addToCartBtn;
 
     public void clickMenu() {
-        menuButton.click();
+        wait.until(ExpectedConditions.elementToBeClickable(menuButton)).click();
     }
 
     public void clickLogout() {
-        logoutLink.click();
+        wait.until(ExpectedConditions.visibilityOf(logoutLink));
+        wait.until(ExpectedConditions.elementToBeClickable(logoutLink)).click();
     }
 
     public void clickAddToCart(String productName) {
@@ -45,7 +55,11 @@ public class InventoryPage {
     }
 
     public String getPageHeader() {
-        return pageHeader.getText();
+        return wait.until(ExpectedConditions.visibilityOf(pageHeader)).getText();
+    }
+
+    public boolean isMenuVisible() {
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("react-burger-menu-btn"))).isDisplayed();
     }
 
 

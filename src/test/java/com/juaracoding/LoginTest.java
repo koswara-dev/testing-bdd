@@ -71,4 +71,27 @@ public class LoginTest {
         logger.info("Checking for error message");
         Assert.assertTrue(loginPage.getErrorText().contains("username and password do not match"), "Error message should indicate invalid credentials");
     }
+
+    @Given("the user is logged in to the application")
+    public void the_user_is_logged_in_to_the_application() {
+        logger.info("Logging in user for logout scenario");
+        driver.get(Constants.URL);
+        loginPage.setCredentials("standard_user", "secret_sauce");
+        loginPage.clickLogin();
+        Assert.assertTrue(inventoryPage.isMenuVisible(), "User should be on inventory page before logout");
+    }
+
+    @When("the user clicks the logout button from the sidebar menu")
+    public void the_user_clicks_the_logout_button_from_the_sidebar_menu() {
+        logger.info("Opening sidebar menu and logging out");
+        inventoryPage.clickMenu();
+        inventoryPage.clickLogout();
+    }
+
+    @Then("the user should be redirected to the login page")
+    public void the_user_should_be_redirected_to_the_login_page() {
+        logger.info("Checking if user is redirected to the login page");
+        Assert.assertTrue(loginPage.isLoginButtonVisible(), "Login button should be visible after logout");
+        Assert.assertTrue(loginPage.getCurrentUrl().contains("saucedemo.com"), "User should be redirected to the login page");
+    }
 }
