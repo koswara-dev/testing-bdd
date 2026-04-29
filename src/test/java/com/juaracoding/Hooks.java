@@ -34,7 +34,7 @@ public class Hooks {
     @Before
     public void setUp(Scenario scenario) {
         logger.info("Setting up the WebDriver");
-        DriverSingleton.getInstance(Constants.FIREFOX);
+        DriverSingleton.getInstance(Constants.FIREFOX_HEADLESS);
         driver = DriverSingleton.getDriver();
         ExtentTest extentTest = extentReports.createTest(scenario.getName());
         scenarioTest.set(extentTest);

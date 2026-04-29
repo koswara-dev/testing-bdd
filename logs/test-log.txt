@@ -1,176 +1,107 @@
-2026-04-14 14:36:59.801 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:37:06.937 [main] INFO  com.juaracoding.Hooks - Before step: about:blank
-2026-04-14 14:37:06.945 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
-2026-04-14 14:37:07.087 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
-2026-04-14 14:37:11.227 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:11.237 [main] INFO  com.juaracoding.InventoryTest - User clicks the Add to Cart button for a product
-2026-04-14 14:37:11.246 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:11.257 [main] INFO  com.juaracoding.InventoryTest - Checking if product is added to the cart
-2026-04-14 14:37:11.263 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:11.270 [main] INFO  com.juaracoding.InventoryTest - Checking the cart icon for the number of items in the cart
-2026-04-14 14:37:11.282 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:11.327 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:37:11.335 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:11.342 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
-2026-04-14 14:37:11.344 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
-2026-04-14 14:37:12.075 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:12.084 [main] INFO  com.juaracoding.InventoryTest - User clicks the Add to Cart button for product: Sauce Labs Backpack
-2026-04-14 14:37:12.094 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:12.103 [main] INFO  com.juaracoding.InventoryTest - Sauce Labs Backpack should be added to the cart
-2026-04-14 14:37:12.115 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:12.122 [main] INFO  com.juaracoding.InventoryTest - Checking the cart icon for the number of items in the cart
-2026-04-14 14:37:12.133 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:12.152 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:37:12.169 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:12.220 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
-2026-04-14 14:37:12.222 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
-2026-04-14 14:37:12.803 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:12.809 [main] INFO  com.juaracoding.InventoryTest - User clicks the Add to Cart button for product: Sauce Labs Bike Light
-2026-04-14 14:37:12.817 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:12.823 [main] INFO  com.juaracoding.InventoryTest - Sauce Labs Bike Light should be added to the cart
-2026-04-14 14:37:12.832 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:12.839 [main] INFO  com.juaracoding.InventoryTest - Checking the cart icon for the number of items in the cart
-2026-04-14 14:37:12.844 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:12.853 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:37:12.857 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:12.862 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
-2026-04-14 14:37:12.866 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
-2026-04-14 14:37:13.282 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:13.294 [main] INFO  com.juaracoding.InventoryTest - User clicks the Add to Cart button for product: Sauce Labs Bolt T-Shirt
-2026-04-14 14:37:13.305 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:13.310 [main] INFO  com.juaracoding.InventoryTest - Sauce Labs Bolt T-Shirt should be added to the cart
-2026-04-14 14:37:13.314 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:13.321 [main] INFO  com.juaracoding.InventoryTest - Checking the cart icon for the number of items in the cart
-2026-04-14 14:37:13.325 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:13.336 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:37:13.342 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:13.354 [main] INFO  com.juaracoding.LoginTest - Initializing LoginTest
-2026-04-14 14:37:13.355 [main] INFO  com.juaracoding.LoginTest - Navigating to the login page
-2026-04-14 14:37:13.538 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/
-2026-04-14 14:37:13.544 [main] INFO  com.juaracoding.LoginTest - Entering valid username and password
-2026-04-14 14:37:13.657 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/
-2026-04-14 14:37:13.661 [main] INFO  com.juaracoding.LoginTest - Clicking the login button
-2026-04-14 14:37:13.760 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:13.765 [main] INFO  com.juaracoding.LoginTest - Checking if user is redirected to the inventory page
-2026-04-14 14:37:13.778 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:13.783 [main] INFO  com.juaracoding.LoginTest - Checking the page header
-2026-04-14 14:37:13.809 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:13.822 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:37:13.827 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:37:13.833 [main] INFO  com.juaracoding.LoginTest - Initializing LoginTest
-2026-04-14 14:37:13.835 [main] INFO  com.juaracoding.LoginTest - Entering invalid username and password
-2026-04-14 14:37:14.109 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/
-2026-04-14 14:37:14.113 [main] INFO  com.juaracoding.LoginTest - Clicking the login button
-2026-04-14 14:37:14.209 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/
-2026-04-14 14:37:14.216 [main] INFO  com.juaracoding.LoginTest - Checking for error message
-2026-04-14 14:37:14.263 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/
-2026-04-14 14:37:14.382 [main] INFO  com.juaracoding.Hooks - Tearing down the WebDriver
-2026-04-14 14:40:05.650 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:40:12.788 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
-2026-04-14 14:40:12.861 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
-2026-04-14 14:40:17.185 [main] INFO  com.juaracoding.InventoryTest - User clicks the Add to Cart button for a product
-2026-04-14 14:40:17.200 [main] INFO  com.juaracoding.InventoryTest - Checking if product is added to the cart
-2026-04-14 14:40:17.215 [main] INFO  com.juaracoding.InventoryTest - Checking the cart icon for the number of items in the cart
-2026-04-14 14:40:17.285 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:40:17.310 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
-2026-04-14 14:40:17.313 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
-2026-04-14 14:40:18.065 [main] INFO  com.juaracoding.InventoryTest - User clicks the Add to Cart button for product: Sauce Labs Backpack
-2026-04-14 14:40:18.096 [main] INFO  com.juaracoding.InventoryTest - Sauce Labs Backpack should be added to the cart
-2026-04-14 14:40:18.116 [main] INFO  com.juaracoding.InventoryTest - Checking the cart icon for the number of items in the cart
-2026-04-14 14:40:18.127 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:40:18.178 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
-2026-04-14 14:40:18.179 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
-2026-04-14 14:40:18.831 [main] INFO  com.juaracoding.InventoryTest - User clicks the Add to Cart button for product: Sauce Labs Bike Light
-2026-04-14 14:40:18.850 [main] INFO  com.juaracoding.InventoryTest - Sauce Labs Bike Light should be added to the cart
-2026-04-14 14:40:18.858 [main] INFO  com.juaracoding.InventoryTest - Checking the cart icon for the number of items in the cart
-2026-04-14 14:40:18.874 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:40:18.882 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
-2026-04-14 14:40:18.883 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
-2026-04-14 14:40:19.362 [main] INFO  com.juaracoding.InventoryTest - User clicks the Add to Cart button for product: Sauce Labs Bolt T-Shirt
-2026-04-14 14:40:19.369 [main] INFO  com.juaracoding.InventoryTest - Sauce Labs Bolt T-Shirt should be added to the cart
-2026-04-14 14:40:19.378 [main] INFO  com.juaracoding.InventoryTest - Checking the cart icon for the number of items in the cart
-2026-04-14 14:40:19.386 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:40:19.406 [main] INFO  com.juaracoding.LoginTest - Initializing LoginTest
-2026-04-14 14:40:19.409 [main] INFO  com.juaracoding.LoginTest - Navigating to the login page
-2026-04-14 14:40:19.620 [main] INFO  com.juaracoding.LoginTest - Entering valid username and password
-2026-04-14 14:40:19.745 [main] INFO  com.juaracoding.LoginTest - Clicking the login button
-2026-04-14 14:40:19.852 [main] INFO  com.juaracoding.LoginTest - Checking if user is redirected to the inventory page
-2026-04-14 14:40:19.866 [main] INFO  com.juaracoding.LoginTest - Checking the page header
-2026-04-14 14:40:19.892 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:40:19.898 [main] INFO  com.juaracoding.LoginTest - Initializing LoginTest
-2026-04-14 14:40:19.900 [main] INFO  com.juaracoding.LoginTest - Entering invalid username and password
-2026-04-14 14:40:20.198 [main] INFO  com.juaracoding.LoginTest - Clicking the login button
-2026-04-14 14:40:20.298 [main] INFO  com.juaracoding.LoginTest - Checking for error message
-2026-04-14 14:40:20.425 [main] INFO  com.juaracoding.Hooks - Tearing down the WebDriver
-2026-04-14 14:48:11.368 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:48:20.091 [main] INFO  com.juaracoding.Hooks - Before step: about:blank
-2026-04-14 14:48:20.177 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
-2026-04-14 14:48:20.789 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
-2026-04-14 14:48:24.267 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:24.284 [main] INFO  com.juaracoding.InventoryTest - User clicks the Add to Cart button for a product
-2026-04-14 14:48:24.295 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:24.303 [main] INFO  com.juaracoding.InventoryTest - Checking if product is added to the cart
-2026-04-14 14:48:24.324 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:24.333 [main] INFO  com.juaracoding.InventoryTest - Checking the cart icon for the number of items in the cart
-2026-04-14 14:48:24.349 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:24.467 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:48:24.480 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:24.598 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
-2026-04-14 14:48:24.600 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
-2026-04-14 14:48:25.695 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:25.705 [main] INFO  com.juaracoding.InventoryTest - User clicks the Add to Cart button for product: Sauce Labs Backpack
-2026-04-14 14:48:25.715 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:25.722 [main] INFO  com.juaracoding.InventoryTest - Sauce Labs Backpack should be added to the cart
-2026-04-14 14:48:25.729 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:25.740 [main] INFO  com.juaracoding.InventoryTest - Checking the cart icon for the number of items in the cart
-2026-04-14 14:48:25.748 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:25.755 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:48:25.767 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:25.780 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
-2026-04-14 14:48:25.784 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
-2026-04-14 14:48:26.694 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:26.701 [main] INFO  com.juaracoding.InventoryTest - User clicks the Add to Cart button for product: Sauce Labs Bike Light
-2026-04-14 14:48:26.706 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:26.713 [main] INFO  com.juaracoding.InventoryTest - Sauce Labs Bike Light should be added to the cart
-2026-04-14 14:48:26.720 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:26.728 [main] INFO  com.juaracoding.InventoryTest - Checking the cart icon for the number of items in the cart
-2026-04-14 14:48:26.736 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:26.742 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:48:26.751 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:26.756 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
-2026-04-14 14:48:26.762 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
-2026-04-14 14:48:27.448 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:27.455 [main] INFO  com.juaracoding.InventoryTest - User clicks the Add to Cart button for product: Sauce Labs Bolt T-Shirt
-2026-04-14 14:48:27.496 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:27.503 [main] INFO  com.juaracoding.InventoryTest - Sauce Labs Bolt T-Shirt should be added to the cart
-2026-04-14 14:48:27.509 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:27.517 [main] INFO  com.juaracoding.InventoryTest - Checking the cart icon for the number of items in the cart
-2026-04-14 14:48:27.523 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:27.541 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:48:27.548 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:27.556 [main] INFO  com.juaracoding.LoginTest - Initializing LoginTest
-2026-04-14 14:48:27.558 [main] INFO  com.juaracoding.LoginTest - Navigating to the login page
-2026-04-14 14:48:27.864 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/
-2026-04-14 14:48:27.875 [main] INFO  com.juaracoding.LoginTest - Entering valid username and password
-2026-04-14 14:48:28.102 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/
-2026-04-14 14:48:28.109 [main] INFO  com.juaracoding.LoginTest - Clicking the login button
-2026-04-14 14:48:28.353 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:28.386 [main] INFO  com.juaracoding.LoginTest - Checking if user is redirected to the inventory page
-2026-04-14 14:48:28.416 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:28.427 [main] INFO  com.juaracoding.LoginTest - Checking the page header
-2026-04-14 14:48:28.570 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:28.578 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:48:28.585 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:28.594 [main] INFO  com.juaracoding.LoginTest - Initializing LoginTest
-2026-04-14 14:48:28.595 [main] INFO  com.juaracoding.LoginTest - Entering invalid username and password
-2026-04-14 14:48:39.043 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:39.183 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
-2026-04-14 14:48:39.188 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:39.192 [main] INFO  com.juaracoding.LoginTest - Initializing LoginTest
-2026-04-14 14:48:39.193 [main] INFO  com.juaracoding.LoginTest - Logging in user for logout scenario
-2026-04-14 14:48:39.853 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
-2026-04-14 14:48:39.858 [main] INFO  com.juaracoding.LoginTest - Opening sidebar menu and logging out
-2026-04-14 14:48:40.126 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/
-2026-04-14 14:48:40.131 [main] INFO  com.juaracoding.LoginTest - Checking if user is redirected to the login page
-2026-04-14 14:48:40.180 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/
-2026-04-14 14:48:40.189 [main] INFO  com.juaracoding.Hooks - Tearing down the WebDriver
+2026-04-29 20:09:24.072 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
+2026-04-29 20:09:26.324 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
+2026-04-29 20:09:30.316 [main] INFO  com.juaracoding.Hooks - Before step: about:blank
+2026-04-29 20:09:30.325 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
+2026-04-29 20:09:30.365 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
+2026-04-29 20:09:37.092 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:09:37.106 [main] INFO  com.juaracoding.InventoryTest - User clicks the Add to Cart button for product: Sauce Labs Backpack
+2026-04-29 20:09:37.112 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:09:37.120 [main] INFO  com.juaracoding.InventoryTest - Sauce Labs Backpack should be added to the cart
+2026-04-29 20:09:37.126 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:09:37.133 [main] INFO  com.juaracoding.InventoryTest - Checking the cart icon for the number of items in the cart
+2026-04-29 20:09:37.140 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/inventory.html
+2026-04-29 20:09:37.148 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
+2026-04-29 20:09:37.156 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:09:37.175 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
+2026-04-29 20:09:37.178 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
+2026-04-29 20:09:38.316 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:09:38.325 [main] INFO  com.juaracoding.InventoryTest - User clicks the Add to Cart button for product: Sauce Labs Bike Light
+2026-04-29 20:09:38.332 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:09:38.339 [main] INFO  com.juaracoding.InventoryTest - Sauce Labs Bike Light should be added to the cart
+2026-04-29 20:09:38.348 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:09:38.355 [main] INFO  com.juaracoding.InventoryTest - Checking the cart icon for the number of items in the cart
+2026-04-29 20:09:38.362 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/inventory.html
+2026-04-29 20:09:38.371 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
+2026-04-29 20:09:38.379 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:09:38.406 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
+2026-04-29 20:09:38.408 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
+2026-04-29 20:09:39.851 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
+2026-04-29 20:09:39.910 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
+2026-04-29 20:09:39.955 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
+2026-04-29 20:09:40.014 [main] INFO  com.juaracoding.Hooks - Tearing down the WebDriver
+2026-04-29 20:10:49.748 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
+2026-04-29 20:10:54.838 [main] INFO  com.juaracoding.Hooks - Before step: about:blank
+2026-04-29 20:10:54.848 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
+2026-04-29 20:10:54.883 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
+2026-04-29 20:10:57.574 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:10:57.611 [main] INFO  com.juaracoding.InventoryTest - User clicks the Add to Cart button for a product
+2026-04-29 20:10:57.642 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:10:57.653 [main] INFO  com.juaracoding.InventoryTest - Checking if product is added to the cart
+2026-04-29 20:10:57.665 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:10:57.683 [main] INFO  com.juaracoding.InventoryTest - Checking the cart icon for the number of items in the cart
+2026-04-29 20:10:57.695 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/inventory.html
+2026-04-29 20:10:57.769 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
+2026-04-29 20:10:57.782 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:10:57.792 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
+2026-04-29 20:10:57.793 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
+2026-04-29 20:10:59.031 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:10:59.049 [main] INFO  com.juaracoding.InventoryTest - User clicks the Add to Cart button for product: Sauce Labs Backpack
+2026-04-29 20:10:59.063 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:10:59.082 [main] INFO  com.juaracoding.InventoryTest - Sauce Labs Backpack should be added to the cart
+2026-04-29 20:10:59.088 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:10:59.104 [main] INFO  com.juaracoding.InventoryTest - Checking the cart icon for the number of items in the cart
+2026-04-29 20:10:59.112 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/inventory.html
+2026-04-29 20:10:59.122 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
+2026-04-29 20:10:59.136 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:10:59.156 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
+2026-04-29 20:10:59.158 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
+2026-04-29 20:11:00.322 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:11:00.337 [main] INFO  com.juaracoding.InventoryTest - User clicks the Add to Cart button for product: Sauce Labs Bike Light
+2026-04-29 20:11:00.346 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:11:00.354 [main] INFO  com.juaracoding.InventoryTest - Sauce Labs Bike Light should be added to the cart
+2026-04-29 20:11:00.366 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:11:00.374 [main] INFO  com.juaracoding.InventoryTest - Checking the cart icon for the number of items in the cart
+2026-04-29 20:11:00.388 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/inventory.html
+2026-04-29 20:11:00.394 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
+2026-04-29 20:11:00.404 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:11:00.410 [main] INFO  com.juaracoding.InventoryTest - Initializing InventoryTest
+2026-04-29 20:11:00.414 [main] INFO  com.juaracoding.InventoryTest - Navigating to the inventory page
+2026-04-29 20:11:01.368 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:11:01.382 [main] INFO  com.juaracoding.InventoryTest - User clicks the Add to Cart button for product: Sauce Labs Bolt T-Shirt
+2026-04-29 20:11:01.391 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:11:01.402 [main] INFO  com.juaracoding.InventoryTest - Sauce Labs Bolt T-Shirt should be added to the cart
+2026-04-29 20:11:01.415 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:11:01.435 [main] INFO  com.juaracoding.InventoryTest - Checking the cart icon for the number of items in the cart
+2026-04-29 20:11:01.443 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/inventory.html
+2026-04-29 20:11:01.466 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
+2026-04-29 20:11:01.486 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:11:01.498 [main] INFO  com.juaracoding.LoginTest - Initializing LoginTest
+2026-04-29 20:11:01.501 [main] INFO  com.juaracoding.LoginTest - Navigating to the login page
+2026-04-29 20:11:02.161 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/
+2026-04-29 20:11:02.170 [main] INFO  com.juaracoding.LoginTest - Entering valid username and password
+2026-04-29 20:11:02.405 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/
+2026-04-29 20:11:02.411 [main] INFO  com.juaracoding.LoginTest - Clicking the login button
+2026-04-29 20:11:02.671 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:11:02.678 [main] INFO  com.juaracoding.LoginTest - Checking if user is redirected to the inventory page
+2026-04-29 20:11:02.695 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:11:02.702 [main] INFO  com.juaracoding.LoginTest - Checking the page header
+2026-04-29 20:11:02.748 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/inventory.html
+2026-04-29 20:11:02.755 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
+2026-04-29 20:11:02.762 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:11:02.770 [main] INFO  com.juaracoding.LoginTest - Initializing LoginTest
+2026-04-29 20:11:02.771 [main] INFO  com.juaracoding.LoginTest - Entering invalid username and password
+2026-04-29 20:11:03.286 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/
+2026-04-29 20:11:03.294 [main] INFO  com.juaracoding.LoginTest - Clicking the login button
+2026-04-29 20:11:03.484 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/
+2026-04-29 20:11:03.491 [main] INFO  com.juaracoding.LoginTest - Checking for error message
+2026-04-29 20:11:03.581 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/
+2026-04-29 20:11:03.700 [main] INFO  com.juaracoding.Hooks - Setting up the WebDriver
+2026-04-29 20:11:03.709 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/
+2026-04-29 20:11:03.715 [main] INFO  com.juaracoding.LoginTest - Initializing LoginTest
+2026-04-29 20:11:03.716 [main] INFO  com.juaracoding.LoginTest - Logging in user for logout scenario
+2026-04-29 20:11:04.431 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/inventory.html
+2026-04-29 20:11:04.441 [main] INFO  com.juaracoding.LoginTest - Opening sidebar menu and logging out
+2026-04-29 20:11:04.836 [main] INFO  com.juaracoding.Hooks - Before step: https://www.saucedemo.com/
+2026-04-29 20:11:04.843 [main] INFO  com.juaracoding.LoginTest - Checking if user is redirected to the login page
+2026-04-29 20:11:04.915 [main] INFO  com.juaracoding.Hooks - After scenario: https://www.saucedemo.com/
+2026-04-29 20:11:04.925 [main] INFO  com.juaracoding.Hooks - Tearing down the WebDriver
